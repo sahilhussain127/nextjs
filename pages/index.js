@@ -105,7 +105,7 @@ export default function Home() {
       >
         <Spin spinning={isLoading}>
           <div>
-            <h1>Hi Sahil Hussian JI</h1>
+            <h1>List of Users</h1>
             {data.map((item, i) => {
               return <p key={i}>{item?.name}</p>;
             })}
