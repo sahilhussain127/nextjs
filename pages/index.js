@@ -100,7 +100,7 @@ export default function Home() {
         closable={true}
         onCancel={() => {
           setModal(false);
-          setData(null);
+          setData([]);
         }}
       >
         <Spin spinning={isLoading}>
